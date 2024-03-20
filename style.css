@@ -3,15 +3,10 @@
     flex-wrap: wrap;                     /* enable flex items to wrap */
     justify-content: space-around;
 }
-
 .grid-item {
-    background-color: #ccc; /* Set background color for grid items */
-    border: 1px solid #000; /* Add border for visual separation */
-    flex-basis: calc(6.25% - 2px); /* Adjust as needed */
-      height: 0;
-      padding-bottom: calc(6.25% - 2px); /* Maintain aspect ratio for squares */
-      background-color: #ccc;
-      border: 1px solid #000;
-      box-sizing: border-box; /* Include border in calculations */
-      margin: 1px; /* Adjust gap between grid items as needed */
+    background-color: rgba(255, 0, 0, 0); /* Set background color for grid items */
+    border: 1px solid rgb(195, 195, 195); /* Add border for visual separation */    
+    height: 0;
+    box-sizing: border-box; /* Include border in calculations */
+    margin: 0px; /* Adjust gap between grid items as needed */
   }
